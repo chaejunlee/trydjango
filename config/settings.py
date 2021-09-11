@@ -25,7 +25,7 @@ SECRET_KEY = 'v=$xxsf_e7*r=a1+&g@_m+ki7)hmba2@h4n%t*rf*)c*a+6*5s'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['study-mpfqc.run.goorm.io']
+ALLOWED_HOSTS = ['study-mpfqc.run.goorm.io', '*']
 
 
 # Application definition
