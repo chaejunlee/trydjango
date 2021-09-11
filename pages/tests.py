@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-from django.test import TestCase
-
-# Create your tests here.
-=======
 from django.test import TestCase, SimpleTestCase
 
 # Create your tests here.
@@ -16,4 +11,3 @@ class SimpleTests(SimpleTestCase):
     def test_about_page_status_code(self):
         response = self.client.get('/about/')
         self.assertEqual(response.status_code, 200)
->>>>>>> initial commit
