@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from django.http import HttpResponse
 from django.shortcuts import render
 
@@ -22,3 +23,17 @@ def about_view(request, *args, **kwargs): # *args, **kwargs
   }
   #return HttpResponse("<h1>Hello World</h1>") # string of HTML code
   return render(request, "about.html", my_context)
+=======
+from django.shortcuts import render
+from django.views.generic import TemplateView
+
+# Create your views here.
+
+
+class HomePageView(TemplateView):
+    template_name = 'home.html'
+
+
+class AboutPageView(TemplateView):
+    template_name = 'about.html'
+>>>>>>> initial commit
